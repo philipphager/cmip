@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cmip"
+version = "0.1.0"
+description = ""
+authors = ["Romain Deffayet <r.e.deffayet@uva.nl>", "Philipp Hager <p.k.hager@uva.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.1"
+scikit-learn = "^1.2.1"
+lightgbm = "^3.3.5"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
