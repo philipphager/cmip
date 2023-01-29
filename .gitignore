@@ -1,0 +1,9 @@
+# IDE
+.idea
+.ipynb_checkpoints
+
+# Python
+*.pyc
+
+# Dependency management
+poetry.lock
