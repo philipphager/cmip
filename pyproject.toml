@@ -2,7 +2,7 @@
 name = "cmip"
 version = "0.1.0"
 description = ""
-authors = ["Romain Deffayet <r.e.deffayet@uva.nl>", "Philipp Hager <p.k.hager@uva.nl>"]
+authors = []
 readme = "README.md"
 
 [tool.poetry.dependencies]
