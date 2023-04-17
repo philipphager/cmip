@@ -2,9 +2,9 @@ import numpy as np
 import numpy.typing as npt
 from sklearn.model_selection import train_test_split
 
-from cmip.divergence import KLDivergence, ClassifierKLDivergence
-from cmip.knn import nearest_neighbor_bootstrap
-from cmip.util import hstack, padding_mask
+from cmip_metric.divergence import KLDivergence, ClassifierKLDivergence
+from cmip_metric.knn import nearest_neighbor_bootstrap
+from cmip_metric.util import hstack, padding_mask
 
 
 class CMIP:

@@ -6,7 +6,7 @@ import numpy.typing as npt
 from lightgbm import LGBMClassifier
 from sklearn.model_selection import train_test_split
 
-from cmip.util import add_label
+from cmip_metric.util import add_label
 
 
 class KLDivergence(ABC):
