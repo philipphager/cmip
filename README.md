@@ -47,4 +47,4 @@ pip install cmip-metric
 ```
 
 ## License
-This project uses the MIT license.
+This project uses the [MIT license](https://github.com/philipphager/CMIP/blob/main/LICENSE).
