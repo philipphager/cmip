@@ -1,5 +1,5 @@
 # CMIP - Conditional Mutual Information with the logging Policy
-CMIP implementation for the paper: `An Offline Metric for the Debiasedness of Click Models`, currently under review at SIGIR 2023.
+CMIP implementation from the 2023 SIGIR paper: `An Offline Metric for the Debiasedness of Click Models`.
 
 The metric quantifies the mutual information between a new click model policy and the production system that collected the train dataset (logging policy), conditional on human relevance judgments. CMIP quantifies the degree of debiasedness (see paper for details). A policy is said to be debiased w.r.t. its logging policy with a `cmip <= 0`.  
 
@@ -28,4 +28,23 @@ metric(y_predict, y_logging_policy, y_true, n)
 > 0.2687 # The policy predicting y_predict is not debiased w.r.t. the logging policy.
 ```
 ## Installation
-The package will be made available on [pypi](https://pypi.org/) on acceptance.
+```
+pip install cmip-metric
+```
+
+## Reference
+
+**Note: To be published at:**
+
+```
+@inproceedings{Deffayet2023Debiasedness,
+  author = {Romain Deffayet and Philipp Hager and Jean-Michel Renders and Maarten de Rijke},
+  title = {An Offline Metric for the Debiasedness of Click Models},
+  booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR`23)},
+  organization = {ACM},
+  year = {2023},
+}
+```
+
+## License
+This project uses the MIT license.
