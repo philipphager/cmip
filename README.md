@@ -21,7 +21,7 @@ n = np.full(n_queries, n_results)
 ```
 
 ```Python
-from cmip import CMIP
+from cmip_metric import CMIP
 
 metric = CMIP()
 metric(y_predict, y_logging_policy, y_true, n)
